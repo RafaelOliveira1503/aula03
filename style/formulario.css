@@ -1,7 +1,7 @@
 :root{
     --primary: #610461;
     --secondary: #f1f3f5;
-    --tertiary: #07ec1a;
+    --tertiary: #2385cb;
     --error: #ff0000;
     --success:#008000;
     --warning:#ffff00;
@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color:var(--primary);
+    background-color: #610461;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,3 +63,6 @@ h1{
     margin-bottom: 20px;
 }
 
+a{
+    margin: 5px;
+}
