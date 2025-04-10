@@ -36,7 +36,8 @@ body {
 main {
     background-color: #08a8e7;
     width:30%;
-    padding: 40px;  
+    padding: 30px;  
+    border-radius: 8px;
 }
 
 #nome , #email , #senha {
@@ -82,4 +83,12 @@ button:hover {
 
 #turno {
     margin: 15px 0;
+}
+
+a {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
 }
