@@ -1,0 +1,85 @@
+:root{
+    --primary: #08a8e7;
+    --secondary:    #3b3b39;
+    --tertiary: #ffffff;
+    --error: #ff0000;
+    --success:#008000;
+    --warning:#ffff00;
+
+    --gray-900: hsl(300, 7%, 59%);
+    --gray-900: hsl(200, 7%, 59%);
+    --gray-900: hsl(250, 7%, 59%);
+    --gray-900: hsl(100, 7%, 59%);
+    --gray-900: hsl(300, 7%, 59%);
+}
+    
+* {
+    margin: 0;              
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    resize: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:#3b3b39; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    background-color: #08a8e7;
+    width:30%;
+    padding: 40px;  
+}
+
+#nome , #email , #senha {
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+#data {
+    display: block;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+
+textarea {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#genero {
+    display: block;
+    margin: 5px 0;
+}
+
+#f {
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    background-color:#808080;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color:var(--tertiary);
+    color: #000;
+}
+
+#turno {
+    margin: 15px 0;
+}
