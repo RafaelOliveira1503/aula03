@@ -1,7 +1,13 @@
 :root{
+<<<<<<< HEAD
     --primary: #08a8e7;
     --secondary: #3b3b39;
     --tertiary: #ffffff;
+=======
+    --primary: #610461;
+    --secondary: #ba07ba;
+    --tertiary: #b6569a;
+>>>>>>> 31ebab02c8e836cfc7a4814af58f37e34260f3c6
     --error: #ff0000;
     --success:#008000;
     --warning:#ffff00;
@@ -20,7 +26,11 @@
 }
 
 body{
+<<<<<<< HEAD
     background-color: var(--primary);
+=======
+    background-color: #610461;
+>>>>>>> 31ebab02c8e836cfc7a4814af58f37e34260f3c6
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,10 +47,16 @@ body{
 .div1 > input{
     background-color:white;
     width: 100%;
+<<<<<<< HEAD
     padding: 5px; 
     height: 30px;
     border-radius: 6px;
     margin: 5px 0;
+=======
+    height: 30px;
+    border-radius: 6px;
+    margin:10px 0;
+>>>>>>> 31ebab02c8e836cfc7a4814af58f37e34260f3c6
 
 }
 /* . = Class */
@@ -54,7 +70,11 @@ body{
 }
 
 .btn:hover{
+<<<<<<< HEAD
     background-color: var(--primary);
+=======
+    background-color: #610461;
+>>>>>>> 31ebab02c8e836cfc7a4814af58f37e34260f3c6
     color: white;
 }
 h1{
@@ -66,4 +86,8 @@ h1{
 
 a{
     margin: 5px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 31ebab02c8e836cfc7a4814af58f37e34260f3c6
